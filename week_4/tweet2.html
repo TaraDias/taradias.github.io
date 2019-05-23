@@ -5,7 +5,17 @@
 </head>
 <body>
 
-<div class="text"> 🦋Spotted this spring: A cosmic butterfly fluttering on wings made of interstellar gas & dust🦋</div>
+<div class="text"> Spotted this spring: A cosmic butterfly fluttering on wings made of interstellar gas & dust</div>
+<br>
+<br>
+<div class="box"><img src="images/butter-fly.gif" alt="butter-fly"></div> 
+<div class="text2"> Spotted this spring: A cosmic butterfly fluttering on wings made of interstellar gas & dust</div>
+
+
+
+
+
+
 <div class="gradient"></div>
 
 
@@ -24,7 +34,7 @@ body{
 
 .text{
 	color: white;
-	font-family: arial;
+	font-family: impact;
 	font-size: 60pt;
 	animation-name: colourUG;
 	animation-duration:1000ms;
@@ -32,9 +42,43 @@ body{
   	animation-timing-function: linear;
   	animation-direction: alternate;
   	opacity: 0.25;
-  	height: 1000px;
+  	height: 300px;
+  text-align: justify;
 
 }
+
+.text2{
+  color: white;
+  font-family: impact;
+  font-size: 60pt;
+  animation-name: colourUG;
+  animation-duration:1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    opacity: 0.25;
+    height: 300px;
+  text-align: justify;
+  }
+
+.box {
+  width: 250px;
+  height:15px;
+  position: fixed;
+  padding: 10px;
+  bottom: 250px;
+  right: 50px;
+
+ 
+  animation-name:spinTD;
+  animation-duration:3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+
+}
+
+
 
 .body{
 	
@@ -50,6 +94,19 @@ body{
   to {
   background-color: red;
   }
+
   
   
+}
+
+@keyframes spinTD {
+  
+  from {
+    width:200px;
+  }
+  
+  to {
+    width:1100px;
+  
+
 }
