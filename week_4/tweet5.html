@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TWEET # 5</title>
+</head>
+<body>
+<div>Before</div>
+<div>calling</div>
+<div>it</div>
+<div>a</div>
+<div>night</div>
+</body>
+</html>
+
+<style type="text/css">
+
+	body{
+		background-color: RoyalBlue;
+		overflow: hidden;
+	}
+	div{
+		top:40%;
+		position: absolute;
+		left: -50%;
+		font-size: 50px;
+		font-family: impact;
+
+	}
+
+	div:nth-child(1){
+		color: white;
+		animation: move 2s infinite cubic-bezier(.2,.64,.81,.23);
+	}
+
+	div:nth-child(2){
+		color: PaleVioletRed;
+		animation: move 2s 700ms infinite cubic-bezier(.2,.64,.81,.23);
+	}
+
+	div:nth-child(3){
+		color: green;
+		animation: move 2s 1200ms infinite cubic-bezier(.2,.64,.81,.23);
+	}
+
+	@keyframes move{
+		0%{left: 100%}
+		100%{left: 0;}
+
+	}
