@@ -1,0 +1,43 @@
+/*setup your .grid with display flex and flex wrap*/
+/*setup your .col with padding */
+/*setup your .content with padding */
+/*setup your .w-1of4 widths with flex:0 0 25%; */
+/*setup your additional grid withds as you need them */
+
+.grid{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col{
+	padding:20px;
+}
+
+.content{
+	padding:20px;
+
+}
+
+.w-1of4{
+	flex:0 0 25%;
+}
+
+.w-3of4{
+	flex:0 0 75%;
+}
+
+.w-1of2{
+	flex:0 0 50%;
+}
+
+.w-1of1{
+	flex: 0 0 100%;
+}
+
+.w-1of3{
+	flex:0 0 33.33333%;
+}
+
+.w-2of3{
+	flex:0 0 66.66666%;
+}
