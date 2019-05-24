@@ -1,0 +1,44 @@
+body {
+	font-family: courier;
+	font-size: 32px;
+
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+img {
+	width:100%;
+	display: block;
+}
+
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.interaction .content {
+
+	background-color: black;
+	display: inline-block;
+
+
+}
+
+.menu {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	background-color:lime;
+	margin-left:-50%;
+	transition:0.5s;
+
+}
+
+.color{
+	color: white;
+}
