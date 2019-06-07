@@ -18,10 +18,12 @@
 .contents.left {
 	margin-left: 0%;
 	transition: 0.5s;
+
 }
 
 .nav-contents {
 	cursor: pointer;
+	color: red;
 }
 
 .close {

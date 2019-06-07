@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+</head>
 	<title>page 2</title>
 </head>
 <body>
+  
 
+<!-- --VIDEO-- -->
 <div class="video-container">
 	<video autoplay loop muted> 
 
 <source src="book.mp4" type="video/mp4">
 </video>
+<!-- --END VIDEO---->
+
 
 <div class="text-1">
 	+evolution+
 </div>
 
-<div class="text">
-	-SPECIFICATIONS-
-	<br>
-	69 Pages
-	<br>
-	Courier.Arial
-	<br>
-	127mm x 203.2mm
-	<br>
-	ISBN 978-0-36-875498-2
+
+
+<!-- SCROLL -->
+<div class="scroll">
+	<marquee behaviour="scroll" marquee style="font-family: courier" direction="left" scrollamount="20"> 
+	-69 Pages    -   Courier.Arial   -    127mm x 203.2mm    -    ISBN 978-0-36-875498-2.    - 
+</marquee>
+</div>
+<!-- END SCROLL -->
 
 </div>
-</div>
-
-
-
 
 </body>
 </html>
@@ -38,9 +38,8 @@
 
 <style type="text/css">
 
-
 	body{
-		background-color: #191818
+		background-color: black;
 	}
 
 	.video-container{
@@ -53,17 +52,24 @@
 
 	}
 
+	.scroll{
+	position: absolute;
+	top: 870px;
+	color: white;
+}
+
+
+/*-----------*/
+
 .text-1{
 	position: absolute;
+	left: 30px;
+	top: 40px;
 	color: white;
 	font-family: courier;
 	font-size: 30pt;
 }
-.text{
-	position: absolute;
-	color: white;
-	top: 900px;
-	left: 0;
-	width: 100%;
 
-}
+
+
+
