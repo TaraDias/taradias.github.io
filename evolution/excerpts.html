@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+   	<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/popup-1.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/colours.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/grid.css" type="text/css">
+  	<script src="assets/java/jquery-3.4.1.min.js"></script>
+  	<script src="main.js"></script>
+    <script src="assets/java/popup-1.js"></script>
 	<title>EXCERPTS</title>
+
 </head>
 <body>
+
+<div class="title">
+    EXCERPTS
+    </div>
+
+
+<div class="grid">
+      <div class="col">
+        <div class="content">
+        "Their hair is short, shaved, styled loosely or offensively, often green, or red, or purple.
+		> Velvet <span class="l-DM popup-link">Doc’s</span>,fish-string leggings or tights, ragged, baggy, cut off slacks, or tight fitting jeans, bleach marks, spikes, chains, and rope hanging from every loose place to clip these objects."
+          <br><br>
+		"Well.. I feel that punk has taken a turn for the worse, becoming mainstream and all...That the old punk values have kind of been lost.Which isn’t the fault  of punx themselves,but of <span class="l-MS popup-link"> mainstream </span> culture...I mean, since bands such as Nirvana popularized a more
+    	punk sound, even cock-rock morons have jumped on the punk bandwagon.
+ 		And that’s just not cool.
+
+
+          ideally, BUCKET will acquire some consistent writers and will expand to be released twice a month at about <span class="l-40k popup-link">40k</span>.  right now, expect monthly releases between <span class="l-25k popup-link">25k</span> and <span class="l-30k popup-link">30k</span>, growing as we grow.
+          <br><br>
+         
+        </div>
+      </div>
+    </div>
+
+<div class="p-MS p-text">What was consdiered to be different and ‘alternative is now just becoming the “MAINSTREAM”</div> 
+<div class="p-30k p-text">30k</div> 
+<div class="p-DM p-text">I look around and what was thought of as being different, say, baggy jeans with oversized daggy shirts and a washed up pair of dr martens, is now everywhere. </div> 
+
+
 
 </body>
 </html>
@@ -14,3 +55,46 @@
 	body{
 		background-color: black;
 	}
+
+.title{
+	color: white;
+	font-size: 18vw;
+}
+
+.popup-link{
+	color:red;
+	cursor: pointer;
+}
+
+.p-text{
+	cursor: pointer;
+	position: fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100vh;
+	display: none;
+	mix-blend-mode: multiply;
+}
+.p-DM {
+	font-size:8vw;
+	text-align: center;
+	color: red;	
+}
+
+.p-MS {
+	font-size:8vw;
+	text-align: center;
+	color: blue;
+}
+
+
+.content{
+	color: white;
+}
+
+
+.show {
+	display: block;
+}
+
