@@ -11,12 +11,12 @@ $('.p-MS').click(function() {
 });
 
 // 35k popup
-$('.l-30k').click(function() {
-  $('.p-30k').addClass('show');
+$('.l-CRY').click(function() {
+  $('.p-CRY').addClass('show');
 });
 
-$('.p-30k').click(function() {
-  $('.p-30k').removeClass('show');
+$('.p-CRY').click(function() {
+  $('.p-CRY').removeClass('show');
 });
 
 // 45k popup

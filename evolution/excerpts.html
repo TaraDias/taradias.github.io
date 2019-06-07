@@ -12,37 +12,81 @@
   	<script src="assets/java/jquery-3.4.1.min.js"></script>
   	<script src="main.js"></script>
     <script src="assets/java/popup-1.js"></script>
+     <script src="assets/java/toggle.js"></script>
 	<title>EXCERPTS</title>
 
 </head>
 <body>
 
+	<div class="backtext">
+	<a href="page2.html" style="color: red" > &nbsp;+</a>
+	<br>
+</div>
+
 <div class="title">
     EXCERPTS
     </div>
 
-
+<!-- --------------------------------------- -->
 <div class="grid">
       <div class="col">
         <div class="content">
-        "Their hair is short, shaved, styled loosely or offensively, often green, or red, or purple.
-		> Velvet <span class="l-DM popup-link">Doc’s</span>,fish-string leggings or tights, ragged, baggy, cut off slacks, or tight fitting jeans, bleach marks, spikes, chains, and rope hanging from every loose place to clip these objects."
-          <br><br>
+        	 <br><br>
+
+        "Their hair is short, shaved, styled loosely or offensively, often green, or red, or purple. Velvet <span class="l-DM popup-link">Doc’s</span>,fish-string leggings or tights, ragged, baggy, cut off slacks, or tight fitting jeans, bleach marks, spikes, chains, and rope hanging from every loose place to clip these objects."
+
+          	<br><br>
+
 		"Well.. I feel that punk has taken a turn for the worse, becoming mainstream and all...That the old punk values have kind of been lost.Which isn’t the fault  of punx themselves,but of <span class="l-MS popup-link"> mainstream </span> culture...I mean, since bands such as Nirvana popularized a more
     	punk sound, even cock-rock morons have jumped on the punk bandwagon.
  		And that’s just not cool.
 
+ 			<br><br>
 
-          ideally, BUCKET will acquire some consistent writers and will expand to be released twice a month at about <span class="l-40k popup-link">40k</span>.  right now, expect monthly releases between <span class="l-25k popup-link">25k</span> and <span class="l-30k popup-link">30k</span>, growing as we grow.
-          <br><br>
+ 		Is it alright for men to<span class="l-CRY popup-link"> cry? </span> I mean, that idea that men aren’t supposed to cry because they’re supposed to be “strong”, that’s complete bullshit…
+
+         	 <br><br>
          
         </div>
       </div>
     </div>
 
-<div class="p-MS p-text">What was consdiered to be different and ‘alternative is now just becoming the “MAINSTREAM”</div> 
-<div class="p-30k p-text">30k</div> 
+<div class="p-MS p-text">What was consdiered to be different and ‘alternative is now just becoming the “MAINSTREAM”</div>
+
+<div class="p-CRY p-text">Male crying is nothing new... it’s been happening for as long as men have had eyeballs. Men have emotions, they feel their feelings. They CAN whenever they want.</div> 
+
 <div class="p-DM p-text">I look around and what was thought of as being different, say, baggy jeans with oversized daggy shirts and a washed up pair of dr martens, is now everywhere. </div> 
+
+<!-- --------------------------------------- -->
+
+<div class="grid">
+      <div class="col w-1of1">
+        <div class="content">
+
+         
+
+          <div class="toggle-title title-1">Fashion</div>
+          <div class="toggle-content toggle-1">
+           <img src="images/clothes.jpg">
+          </div>
+          
+
+          <div class="toggle-title title-2">Gender norms</div>
+          <div class="toggle-content toggle-2">
+          <img src="images/cry.jpg">
+          </div>
+          
+
+
+          <div class="toggle-title title-3">Music</div>
+          <div class="toggle-content toggle-3">
+           <img src="images/concert.jpg">
+          </div>
+         
+
+        </div>
+      </div>
+    </div>
 
 
 
@@ -50,20 +94,29 @@
 </html>
 
 
+
+
 <style type="text/css">
 
 	body{
 		background-color: black;
 	}
+.backtext{
+	font-family: courier;
+	font-size: 50px;
 
+}
 .title{
 	color: white;
 	font-size: 18vw;
+	font-family: courier;
+
 }
 
 .popup-link{
 	color:red;
 	cursor: pointer;
+	font-family: courier;
 }
 
 .p-text{
@@ -75,26 +128,56 @@
 	height: 100vh;
 	display: none;
 	mix-blend-mode: multiply;
+	font-family: courier;
+
 }
 .p-DM {
-	font-size:8vw;
+	font-size:6vw;
 	text-align: center;
-	color: red;	
+	color: lime;	
+	font-family: courier;
 }
 
 .p-MS {
 	font-size:8vw;
 	text-align: center;
-	color: blue;
+	color: lime;
+	font-family: courier;
 }
 
+.p-CRY {
+	font-size:8vw;
+	text-align: center;
+	color: lime;	
+	font-family: courier;
+}
 
 .content{
 	color: white;
+	font-family: courier;
 }
 
 
 .show {
 	display: block;
+	font-family: courier;
 }
 
+/*----------------------*/
+
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.toggle-title {
+	border-top:3px solid #000;
+	cursor: pointer;
+	color: red;
+	font-size: 20vw;
+}
+
+.toggle-content {
+	display: none;
+	
+}
